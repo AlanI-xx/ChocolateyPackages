@@ -4,7 +4,7 @@ $toolsDir      = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $pp            = Get-PackageParameters
 $unzipLocation = "$toolsDir\unzippedfiles"
 $url           = 'https://downloadmirror.intel.com/28679/eng/ME_SW_1909.12.0.1236.zip'
-$checksum      = 'AF42C06A6322BEACCD4B28FA80997B6679A12E6BB688E099C141369046ECB6EC'
+$checksum      = '5FEC67C6C9F858145C5F4EC48B120338BEA44EE49593B7B363E520ADA2C06A5F'
 
 New-Item $unzipLocation -Type Directory | Out-Null
 
